@@ -1,2 +1,2 @@
-# equivision.github.io
-Website for Workshop on Equivariant Vision: From Theory to Practice
+# genbot.github.io
+Website for Workshop on Generative Models for Robot Learning
