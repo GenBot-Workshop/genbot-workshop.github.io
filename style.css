@@ -1,6 +1,6 @@
 body {
-    background-color: #ffdbb5;
-    color: #1a1a1a;
+    background-color: #0e131f;
+    color: #a9a9a9;
     line-height: 1.8em;
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
@@ -11,11 +11,13 @@ h2 {
     padding: 10px 0px 10px 0px;
     margin: 0px 0px 0px 0px;
     font-weight: bold;
+    color: #e8e8e8;
 }
 
 h4 {
     padding: 0px 0px 10px 0px;
     margin: 0px 0px 0px 0px;
+    color: #e8e8e8;
 }
 
 h5 {
@@ -23,6 +25,7 @@ h5 {
     font-weight: bold;
     padding: 10px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
+    color: #e8e8e8;
 }
 
 u {
@@ -30,10 +33,12 @@ u {
     font-weight: bold;
 }
 
-a { color: #419d78; }
-a:hover {color: #419d78;}
+a { color: #fa9f42; }
+a:hover {color: #ffbe86;}
 .row a {text-decoration: none;}
 li {font-size: 12pt;}
+
+strong { color: #e8e8e8; }
 
 .author {
     color: #c08497;
@@ -50,24 +55,24 @@ li {font-size: 12pt;}
     font-weight: bold;
 }
 .navbar {
-    border-bottom: 12px solid #c08497;
-    background-color: #2d3047;
+    border-bottom: 12px solid #8b939c;
+    background-color: #59546c;
 }
 .navbar-top a {
     color: #419d78;
 }
 .navbar a:hover {
-    color: #e0a458;
+    color: #ffbe86;
 }
 
-.nav-link {color: #e0a458;}
+.nav-link {color: #fa9f42;}
 .nav-link.active {
-    color: #ffdbb5;
-    background: #c08497;
+    color: #ffbe86;
+    background: #8b939c;
 }
 .nav-item li.active>a, .nav-item a:hover, .nav-item a:focus, .nav-itme li.open>a{
-    color: #ffdbb5;
-    background: #c08497 !important;
+    color: #ffbe86;
+    background: #8b939c !important;
     outline: 0;
 }
 
@@ -91,7 +96,7 @@ li {font-size: 12pt;}
 }
 .section > .title {
     font-size: 18pt;
-    color: #414446;
+    color: #e8e8e8;
     clear: both;
     padding-bottom: 10px;
     border-bottom: 2px solid #999;
@@ -104,7 +109,7 @@ li {font-size: 12pt;}
     max-width: 900px;
     margin: 0 auto;
     padding: 40px 4px 0px 4px;
-    background-color: #ffdbb5;
+    background-color: #0e131f;
 }
 .jumbotron > .title {
     font-size: 18pt;
@@ -175,6 +180,10 @@ table {
     text-align: left;
 }
 
+.table {
+    color: #a9a9a9;
+}
+
 tr { 
     border: solid #efefef;
     border-width: 3px 0;
@@ -182,7 +191,7 @@ tr {
 
 .table-head {
     background-color: #2d3047;
-    color: #dcdcdc;
+    color: #a9a9a9;
 }
 
 .carousel-item {
@@ -220,8 +229,8 @@ tr {
 
 .icon {
     display: inline-block;
-    background: #e0a458;
-    color: #2d3047;
+    background: #fa9f42;
+    color: #0e131f;
     padding: 10px;
     cursor: pointer;
     border-radius: 5px;
@@ -230,8 +239,8 @@ tr {
 }
 
 .icon:hover {
-    background: #c08497;
-    color: #419d78;
+    background: #ffbe86;
+    color: #8b939c;
 }
 
 .col-button {
@@ -239,10 +248,10 @@ tr {
 }
 
 .btn {
-    background: #2d3047;
+    background: #59546c;
     border: 0pt;
 }
 .btn:hover {
-    background: #c08497;
+    background: #8b939c;
     border: 0pt;
 }
